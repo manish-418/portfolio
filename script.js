@@ -1,6 +1,12 @@
 // ACTIVE NAVIGATION EFFECT
 
 const navLinks = document.querySelectorAll(".nav-links a");
+const navLinksContainer = document.querySelector(".nav-links");
+const navToggle = document.querySelector(".nav-toggle");
+
+navToggle?.addEventListener("click", () => {
+  navLinksContainer?.classList.toggle("open");
+});
 
 navLinks.forEach((link) => {
   link.addEventListener("click", () => {
@@ -9,6 +15,7 @@ navLinks.forEach((link) => {
     });
 
     link.classList.add("active");
+    navLinksContainer?.classList.remove("open");
   });
 });
 
@@ -16,7 +23,7 @@ navLinks.forEach((link) => {
 
 const form = document.querySelector(".contact-form");
 
-form.addEventListener("submit", (e) => {
+form?.addEventListener("submit", (e) => {
   e.preventDefault();
 
   alert("Message Sent Successfully!");
