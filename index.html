@@ -4,7 +4,11 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
+    <meta name="description" content="Manish Prajapat is a Full Stack Web Developer from Jaipur building responsive web applications with HTML, CSS, JavaScript, React, Node.js and MongoDB." />
+    <meta name="keywords" content="Manish Prajapat, Full Stack Developer, Portfolio, Web Developer, React, Node.js, JavaScript" />
+    <meta property="og:title" content="Manish Prajapat | Full Stack Developer" />
+    <meta property="og:description" content="Portfolio showcasing web apps, technical skills, and contact details for Manish Prajapat." />
+    <meta property="og:type" content="website" />
     <title>Manish Prajapat | Portfolio</title>
 
     <!-- GOOGLE FONTS -->
@@ -51,6 +55,10 @@
                 </li>
 
                 <li>
+                    <a href="#skills">Skills</a>
+                </li>
+
+                <li>
                     <a href="#projects">Projects</a>
                 </li>
 
@@ -89,22 +97,29 @@
 
             <div class="hero-buttons">
 
-                <button class="primary-btn">
+                <a class="primary-btn" href="#projects">
                     View Projects
-                </button>
+                </a>
 
-                <button class="secondary-btn">
+                <a class="secondary-btn" href="#contact">
                     Contact Me
-                </button>
+                </a>
 
             </div>
 
         </div>
 
         <div class="hero-right">
-
-            <img src="./WhatsApp Image 2026-05-14 at 4.04.05 PM.jpeg" alt="Profile" />
-
+            <div class="profile-card">
+                <div class="profile-photo">
+                    <span>MP</span>
+                </div>
+                <div class="profile-copy">
+                    <p>Hi, I'm Manish</p>
+                    <h3>Full Stack Developer</h3>
+                    <p>Jaipur • BCA Final Year • UI/UX, MERN, APIs</p>
+                </div>
+            </div>
         </div>
 
     </section>
@@ -169,6 +184,39 @@
 
     </section>
 
+    <!-- SKILLS -->
+
+    <section class="skills" id="skills">
+
+        <div class="section-heading">
+
+            <p>CORE SKILLS</p>
+
+            <h2>What I Work With</h2>
+
+        </div>
+
+        <div class="skills-grid">
+
+            <div class="skill-card">
+                <h3>Frontend</h3>
+                <p>HTML, CSS, JavaScript, React.js, Tailwind CSS</p>
+            </div>
+
+            <div class="skill-card">
+                <h3>Backend</h3>
+                <p>Node.js, Express.js, MongoDB, REST APIs</p>
+            </div>
+
+            <div class="skill-card">
+                <h3>Tools</h3>
+                <p>Git, GitHub, VS Code, Figma, Postman</p>
+            </div>
+
+        </div>
+
+    </section>
+
     <!-- PROJECTS -->
 
     <section class="projects" id="projects">
@@ -185,8 +233,9 @@
 
             <div class="project-card">
 
-                <img src="https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?q=80&w=1200&auto=format&fit=crop"
-                    alt="" />
+                <div class="project-visual visual-ecommerce">
+                    <span>Shop dashboard</span>
+                </div>
 
                 <div class="project-info">
 
@@ -197,14 +246,20 @@
                         products, users, payments and shipping.
                     </p>
 
+                    <div class="project-links">
+                        <a href="https://github.com/manish-418/ecommerce-website" target="_blank" rel="noreferrer">GitHub</a>
+                        <a href="https://manish-418.github.io/ecommerce-website/" target="_blank" rel="noreferrer">Live</a>
+                    </div>
+
                 </div>
 
             </div>
 
             <div class="project-card">
 
-                <img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?q=80&w=1200&auto=format&fit=crop"
-                    alt="" />
+                <div class="project-visual visual-portfolio">
+                    <span>Portfolio preview</span>
+                </div>
 
                 <div class="project-info">
 
@@ -215,14 +270,20 @@
                         modern UI and smooth interactions.
                     </p>
 
+                    <div class="project-links">
+                        <a href="https://github.com/manish-418/portfolio" target="_blank" rel="noreferrer">GitHub</a>
+                        <a href="https://manish-418.github.io/portfolio/" target="_blank" rel="noreferrer">Live</a>
+                    </div>
+
                 </div>
 
             </div>
 
             <div class="project-card">
 
-                <img src="https://images.unsplash.com/photo-1511512578047-dfb367046420?q=80&w=1200&auto=format&fit=crop"
-                    alt="" />
+                <div class="project-visual visual-game">
+                    <span>Game UI</span>
+                </div>
 
                 <div class="project-info">
 
@@ -232,6 +293,11 @@
                         Interactive JavaScript game with smooth
                         animations and clean UI design.
                     </p>
+
+                    <div class="project-links">
+                        <a href="https://github.com/manish-418/rock-paper-scissors" target="_blank" rel="noreferrer">GitHub</a>
+                        <a href="https://manish-418.github.io/rock-paper-scissors/" target="_blank" rel="noreferrer">Live</a>
+                    </div>
 
                 </div>
 
@@ -259,7 +325,7 @@
 
             <p>
                 <i class="fa-solid fa-envelope"></i>
-                prajapatmanish418@gamil.com
+                prajapatmanish418@gmail.com
             </p>
 
             <p>
